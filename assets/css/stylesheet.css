@@ -1,0 +1,242 @@
+/* reset css*/
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.main {
+  padding-top: 180px;
+  padding-bottom: 180px;
+  color: white;
+  background-image: url(https://www.jejakpiknik.com/wp-content/uploads/2018/05/Screenshot_15-1-630x380.jpg);
+  background-size: cover;
+}
+
+.main h1 {
+  opacity: 0.7;
+  font-size: 45px;
+  letter-spacing: 5px;
+}
+
+.main p {
+  opacity: 0.7;
+  margin-bottom: 3px;
+}
+
+li {
+  list-style: none;
+}
+/*header */
+header {
+  background-color: rgba(74, 101, 114, 0.9);
+  color: white;
+  height: 65px;
+  width: 100%;
+}
+
+.header-logo {
+  float: left;
+  font-size: 20px;
+  padding: 20px 20px;
+}
+
+.header-nav {
+  float: right;
+  margin-right: 25px;
+}
+
+.header-nav a {
+  line-height: 65px;
+  padding: 0 25px;
+  color: white;
+  display: block;
+  float: left;
+  transition: all 0.5s;
+}
+
+.header-nav a:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+header .menu-icon {
+  color: white;
+  float: right;
+  font-size: 25px;
+  padding: 21px 0;
+  display: none;
+}
+
+.main {
+  padding: 100px 80px;
+}
+
+.member-wrapper {
+  padding-left: 5%;
+  padding-right: 5%;
+  text-align: center;
+  background-color: #f7f7f7;
+  padding-bottom: 60px;
+}
+
+.heading {
+  padding-top: 60px;
+  padding-bottom: 30px;
+  color: #5f5d60;
+  text-align: center;
+}
+
+.heading h2 {
+  font-weight: normal;
+}
+
+.member {
+  display: inline-block;
+  width: 19%;
+  height: auto;
+  grid-column: span 8;
+  margin: 10px 0;
+  border-radius: 15px;
+  background-color: white;
+  position: relative;
+  box-shadow: 0 10px 10px rgba(0,0,0,.1);
+  transition: 0.3s;
+}
+
+.member:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.member a {
+  color: black;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.desk-quest {
+  max-height: 0;
+  /* overflow: hidden; */
+  transition: max-height 1s ease;
+  color: #5f5d60;
+  font-size: 14px;
+}
+
+.desk-quest span {
+  font-weight: bold;
+  color: black;
+}
+
+.member.active .desk-quest {
+  max-height: 300px;
+}
+
+.member.active i {
+  transform: rotate(180deg);
+  transition: all 1s ease;
+}
+
+.member i {
+  transition: all 1s ease;
+}
+
+.btn-grad {
+  background-image: linear-gradient(
+    to right,
+    #c0392b 0%,
+    #8e44ad 51%,
+    #c0392b 100%
+  );
+}
+
+.btn-grad {
+  float: left;
+  margin: 10px;
+  padding: 12px 25px;
+  text-align: center;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+  display: block;
+}
+
+.btn-grad:hover {
+  background-position: right center;
+  /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}
+
+.txt-contents {
+  width: 80%;
+  display: inline-block;
+  margin-top: 15px;
+  font-size: 16px;
+  color: #464646;
+}
+
+.heading h3 {
+  font-weight: normal;
+}
+
+.member-icon img {
+  width: 100%;
+  height: 200px;
+  padding: 15px 15px;
+  border-radius: 20px;
+}
+
+.member-description {
+  padding: 10px 15px;
+}
+
+.message-wrapper {
+  padding-top: 50px;
+  padding-bottom: 80px;
+  text-align: center;
+}
+
+.message {
+  color: white;
+  padding: 15px 40px;
+  background-color: #f9aa33;
+  cursor: pointer;
+  box-shadow: 0 7px #c17b00;
+}
+
+.message:active {
+  position: relative;
+  top: 7px;
+  box-shadow: none;
+}
+
+footer img {
+  width: 125px;
+}
+
+footer p {
+  color: white;
+  font-size: 12px;
+}
+
+footer {
+  padding: 30px 20px;
+  background-color: rgba(74, 101, 114, 0.9);
+  ;
+}
